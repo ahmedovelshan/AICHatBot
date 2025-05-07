@@ -6,6 +6,8 @@ from langchain.schema import Document
 from dotenv import load_dotenv
 import os
 import shutil
+import nltk
+nltk.download("punkt")
 
 
 # Load environment variables. Assumes that project contains .env file with API keys
