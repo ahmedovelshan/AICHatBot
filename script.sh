@@ -15,6 +15,7 @@ sudo docker run -d -p 11434:11434 --name ollama ollama/ollama
 sleep 60
 sudo docker exec -it ollama ollama pull nomic-embed-text
 sleep 60
+sudo docker exec -it ollama ollama pull llama3
 # Clone your app repository
 git clone https://github.com/ahmedovelshan/AICHatBot.git
 sudo chown -R ubuntu:ubuntu /AICHatBot
