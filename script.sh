@@ -23,6 +23,5 @@ cd AICHatBot
 python3 -m venv venv
 source venv/bin/activate
 pip install --upgrade pip
-pip install onnxruntime
-pip install "unstructured[md]"
+#pip install "unstructured[md]"
 pip install -r requirements.txt
