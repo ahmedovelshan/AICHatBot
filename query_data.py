@@ -38,7 +38,7 @@ def main():
     prompt = prompt_template.format(context=context_text, question=query_text)
     print(prompt)
 
-    model = OllamaLLM(model="llama3.1")
+    model = OllamaLLM(model="llama3")
     # model = ChatOpenAI()
     response_text = model.invoke(prompt)
 
