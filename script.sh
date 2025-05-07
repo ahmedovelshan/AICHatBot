@@ -17,6 +17,7 @@ sudo docker exec -it ollama ollama pull nomic-embed-text
 
 # Clone your app repository
 git clone https://github.com/ahmedovelshan/AICHatBot.git
+sudo chown -R ubuntu:ubuntu /AICHatBot
 cd AICHatBot
 
 # Setup Python virtual environment and install requirements
