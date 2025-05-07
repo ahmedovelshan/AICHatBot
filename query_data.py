@@ -5,7 +5,7 @@ from langchain_openai import OpenAIEmbeddings
 from langchain_ollama import OllamaEmbeddings, OllamaLLM, ChatOllama
 from langchain_openai import ChatOpenAI
 from langchain.prompts import ChatPromptTemplate
-
+import os
 CHROMA_PATH = "chroma"
 
 PROMPT_TEMPLATE = """
