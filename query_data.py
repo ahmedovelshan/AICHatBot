@@ -24,7 +24,7 @@ def main():
     query_text = args.query_text
 
     # Prepare the DB.
-    embedding_function = OllamaEmbeddings(model="nomic-embed-text", base_url=os.getenv("OLLAMA_BASE_URL"))
+    embedding_function = OllamaEmbeddings(model="nomic-embed-text")
     db = Chroma(persist_directory=CHROMA_PATH, embedding_function=embedding_function)
 
     # Search the DB.
