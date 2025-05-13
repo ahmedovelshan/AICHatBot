@@ -3,7 +3,7 @@ from langchain.vectorstores.chroma import Chroma
 from langchain.prompts import ChatPromptTemplate
 from langchain_community.llms.ollama import Ollama
 from langchain_community.embeddings import OllamaEmbeddings
-
+import os
 CHROMA_PATH = "chroma"
 
 PROMPT_TEMPLATE = """
